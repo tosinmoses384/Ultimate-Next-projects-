@@ -14,8 +14,7 @@ const API_KEY = process.env.NEXT_PUBLIC_API_URL;
 const StyledContainer = styled(Box)`
   //border: 1px dashed red;
   display: grid;
-  //grid-template: 20vh 80vh / 100vw;
-  grid-template: 20vh 80vh;
+  grid-template-rows: 20vh 80vh;
   grid-template-areas:
     "inp"
     "img";
