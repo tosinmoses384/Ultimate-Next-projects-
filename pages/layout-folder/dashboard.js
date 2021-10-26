@@ -12,8 +12,10 @@ import { CustomSelect } from "../../components/shared/CustomSelect";
 const API_KEY = process.env.NEXT_PUBLIC_API_URL;
 
 const StyledContainer = styled(Box)`
+  //border: 1px dashed red;
   display: grid;
-  grid-template: 20vh 80vh / 100vw;
+  //grid-template: 20vh 80vh / 100vw;
+  grid-template: 20vh 80vh;
   grid-template-areas:
     "inp"
     "img";
@@ -173,7 +175,7 @@ const onSearchSubmit = async (term) => {
           alignItems="center"
           p={["0.5rem 1rem", "0.5rem 2rem"]}
           //width={["100%", "100%", "100%", "90%"]}
-          margin="0 auto"
+          // margin="0 auto"
           className="box-select"
           //border="1px dashed red"
         >
