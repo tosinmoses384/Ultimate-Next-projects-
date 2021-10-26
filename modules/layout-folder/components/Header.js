@@ -215,14 +215,14 @@ const Header = ({ asideCollapsed }) => {
           <button
             style={{
               position: "absolute",
-              top: "20px !important",
-              left: "10px !important",
-              bottom: "0",
+              bottom: "17px",
+              left: "10px",
+              // bottom: "0",
               backgroundColor: "#fff",
               border: "0",
               cursor: "pointer",
-              width: "15px",
-              height: "15px",
+              // width: "15px",
+              // height: "15px",
             }}
           >
             <i className="las la-search"></i>
